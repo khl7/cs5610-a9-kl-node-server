@@ -6,6 +6,7 @@ const mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost:27017/cs5610-kl-sp20-A9',
 { useNewUrlParser: true, useUnifiedTopology: true })
 
+var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
