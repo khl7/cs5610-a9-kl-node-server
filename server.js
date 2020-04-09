@@ -29,6 +29,8 @@ app.use(session({
 
 require('./controllers/quizzes.controller.server')(app)
 require('./controllers/questions.controller.server')(app)
+require('./controllers/quiz-attempts.controller.server')(app)
+
 
 
 const PORT = process.env.PORT || 3000;
