@@ -3,7 +3,7 @@ var app = express()
 
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/cs5610-kl-sp20-A9',
+mongoose.connect('mongodb://heroku_8r3rbvg0:mrav7kdjr5oa4s8o1tpj9initu@ds125479.mlab.com:25479/heroku_8r3rbvg0',
 { useNewUrlParser: true, useUnifiedTopology: true })
 
 var bodyParser = require('body-parser')
